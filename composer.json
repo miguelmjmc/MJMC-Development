@@ -5,7 +5,11 @@
     "description": "The \"Symfony Standard Edition\" distribution",
     "autoload": {
         "psr-4": {
-            "AppBundle\\": "src/AppBundle"
+            "AppBundle\\": "src/AppBundle",
+            "MJMC\\AssetBundle\\": "src/MJMC/AssetBundle",
+            "MJMC\\TemplateBundle\\": "src/MJMC/TemplateBundle",
+            "MJMC\\FormAnnotationBundle\\": "src/MJMC/FormAnnotationBundle",
+            "MJMC\\CrudBundle\\": "src/MJMC/CrudBundle"
         },
         "classmap": [ "app/AppKernel.php", "app/AppCache.php" ]
     },
